@@ -8,17 +8,22 @@ document.getElementById('my-button').addEventListener('click', function() {
     this.style.backgroundImage = "url('assets/logo-Nazareth-VERAO.png')";
 
     const emailCopied = document.getElementById('email-copied');
+    const thankyou = document.getElementById('thanks');
 
     emailCopied.style.display = 'block';
     emailCopied.classList.add('show');
 
-    document.getElementById('thanks').style.display = 'block';
+    thankyou.style.display = 'block';
+    thankyou.classList.add('show');
+
     document.getElementById('protip').style.display = 'block';
 
     setTimeout(function() {
         emailCopied.classList.remove('show');
+        thankyou.classList.remove('show');
         setTimeout(function() {
             emailCopied.style.display = 'none';
+            thankyou.style.display = 'none';
         }, 1000);
     }, 1000);
 });
