@@ -25,7 +25,7 @@ h1 {
     height: 170px;
     background-color: transparent;
     border: none;
-    background-image: url('/assets/logo-Nazareth-PB.png');
+    background-image: url('assets/logo-Nazareth-PB.png');
     background-size: cover;
     background-position: center;
 }
