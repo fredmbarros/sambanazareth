@@ -42,8 +42,15 @@ h1 {
 
 #email-copied {
     display: none;
+    opacity: 0;
+    transition: opacity 1s ease;
     color: white;
     font-size: 1rem;
+}
+
+#email-copied.show {
+    display: block;
+    opacity: 1;
 }
 
 #thanks {
@@ -56,4 +63,10 @@ h1 {
 
 #etransfer {
     white-space: nowrap;
+}
+
+#protip {
+    display: none;
+    color: white;
+    font-size: 1rem;
 }
