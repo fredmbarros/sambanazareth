@@ -14,15 +14,15 @@ h1 {
 }
 
 #cta {
-    font-size: 24px;
+    font-size: 1.5rem;
     color: white;
-    padding: 0 40px;
+    padding: 0 2rem;
 }
 
 #my-button {
     cursor: pointer;
-    width: 170px;
-    height: 170px;
+    width: 10.625rem;
+    height: 10.625rem;
     background-color: transparent;
     border: none;
     background-image: url('assets/logo-Nazareth-PB.png');
@@ -32,8 +32,8 @@ h1 {
 
 #my-button:active {
     outline: none;
-    width: 169px;
-    height: 169px;
+    width: 10.5rem;
+    height: 10.5rem;
     background-color: transparent;
     border-radius: 50%;
     border: 1px solid #414141;
@@ -47,7 +47,7 @@ h1 {
 
 #thanks {
     display: none;
-    font-size: 60px;
+    font-size: 3.75rem;
     font-weight: bold;
     color: white;
 }
